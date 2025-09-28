@@ -130,18 +130,18 @@ DELETE /api/categories/{id}       # Delete category - LIBRARIAN
 ### Database Console
 The application includes H2 database web console for development:
 
-![H2 Console Login](screenshots/h2-console-login.png)
+![H2 Console Login](src/main/h2-login.png)
 
 **Connection Settings:**
 - JDBC URL: `jdbc:h2:mem:testdb`
 - Username: `sa`
 - Password: `password`
 
-![Database Tables](screenshots/h2-database-tables.png)
+![Database Tables](src/main/h2-console.png)
 
 View sample data:
 
-![Users Table](src/h2-console.png)
+![Users Table](src/main/h2-console.png)
 
 ### Sample API Usage
 
